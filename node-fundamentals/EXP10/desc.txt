@@ -1,0 +1,22 @@
+This is  a experiment to show: the maling of a employee managment system using node js
+in this experiment we have used
+readline is a built-in Node.js module that allows reading input from the command line.
+employees is an array that will store employee objects, each with id and name.
+Created an interface rl to interact with the user through the terminal.
+process.stdin reads input, process.stdout displays output.
+the show menu function prints the menu.
+rl.question asks the user for input.
+switch decides what function to call based on the user’s choice.
+If input is invalid, the menu is shown again.
+addemployee function asks for Employee ID.
+Checks if the ID already exists using some().
+If unique, asks for Employee Name, then adds the employee to the employees array.
+Confirms addition and shows the menu again.
+Printemployees prints all employee.
+if there are no employees, it shows a message.
+Returns to the menu afterwards.
+removeemplovee asks for Employee ID to remove.
+Finds the employee index with findIndex.
+If found, removes it from the array using splice and confirms removal.
+If not found, shows an error message.
+Returns to the menu.
