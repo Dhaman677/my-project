@@ -1,0 +1,12 @@
+Description:
+This project implements a simple Ticket Booking API using Express.js. 
+It allows users to view available seats, temporarily lock a seat, confirm a booking, 
+or release a locked seat. Seats are stored in an in-memory array with status management. 
+A lock timeout mechanism automatically releases seats if not confirmed within 10 seconds.
+
+Features:
+- GET /           → Displays a welcome message
+- GET /seats      → Lists all seats with their status (available, locked, booked)
+- POST /lock/:id  → Locks a seat for a user for 10 seconds
+- POST /confirm/:id → Confirms the booking of a locked seat
+- POST /release/:id → Releases a locked seat back to available
