@@ -1,0 +1,12 @@
+Description: 
+This project implements a simple RESTful API using Express.js to manage a collection of playing cards. 
+The card data is stored in an in-memory array for simplicity. 
+The API demonstrates routing, handling different HTTP methods (GET, POST, DELETE), 
+and basic data manipulation in a Node.js backend environment.
+
+Features:
+- GET /        → Displays a welcome message and available API endpoints
+- GET /cards   → Retrieves all playing cards in the collection
+- GET /cards/:id → Retrieves a specific card by its ID
+- POST /cards  → Adds a new card (requires "suit" and "value" in JSON body)
+- DELETE /cards/:id → Deletes a card from the collection by its ID

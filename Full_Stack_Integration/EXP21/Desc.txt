@@ -1,0 +1,9 @@
+This project is a simple real-time chat application built using React for the frontend and Express.js with Socket.io for the backend.
+It allows multiple users to connect, send, and receive live messages instantly without refreshing the page.
+Each user joins with a custom name, and system messages are shown when users connect or disconnect.
+The backend handles real-time socket connections, message broadcasting, and user tracking.
+The frontend uses Axios and Socket.io-client for API and socket communication.
+The chat interface updates dynamically using React state and hooks.
+This project demonstrates frontend-backend integration, real-time data flow, and event-based architecture.
+It’s ideal for learning how to connect React and Express using WebSockets.
+To run: start the Express server, then start the React client, and open the app in two browsers to chat live.

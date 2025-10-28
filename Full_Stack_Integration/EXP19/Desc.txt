@@ -1,0 +1,8 @@
+This project demonstrates how to connect a React frontend application to a backend Express.js API using Axios.
+The Express server provides a simple /api/products endpoint that returns a list of products with their names and prices.
+The React app fetches this data using Axios when the component mounts and dynamically displays it in a modern, card-based layout.
+Each product card shows the name, price, and a “Buy Now” button for a realistic e-commerce feel.
+The app also includes proper loading and error handling states for better user experience.
+It helps beginners understand how to integrate frontend and backend parts of a full-stack JavaScript application.
+Both servers (frontend and backend) can be run locally for testing and demonstration.
+This project is a great starting point for learning API communication in React using Axios.

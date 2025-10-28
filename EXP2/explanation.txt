@@ -1,0 +1,5 @@
+In this experiment, I have made a webpage for depositing and withdrawing money from a bankaccount using both HTML and CSS.
+In the HTML part we have made two classes Inner_box and Outer_box holding a heading to show current balance and two buttosn one for depositing and another for withdrawing the money.
+These elemenets are designed in an external css file called exp2.css.
+The css file sets the background of the webpage to light gray while also giving green and red color to the deposit and withdraw button respectively.
+The css file also provides a card like appearence to the interface by smoothing out the corners using flexbox.

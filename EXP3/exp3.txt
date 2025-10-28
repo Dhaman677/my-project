@@ -1,0 +1,17 @@
+In this experiment i have made a admin dashboard webpage using html and css
+This admin dash board contains:
+1. A header
+2. A sidebar for navigation
+3. A main content area 
+4. A footer
+5. A switch theme for light  and dark mode
+
+The layout is structured with CSS Grid to divide the page into a header, sidebar navigation, main content area, and footer
+Flexbox is used within the header for proper alignment of elements
+
+How  the dark theme works:
+1.User clicks the "Dark Theme" button which checks the hidden checkbox
+2.CSS checks input
+3.The sibling div gets variable color value 
+4.All elements inside div change color automatically
+
