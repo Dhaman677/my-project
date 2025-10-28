@@ -20,17 +20,19 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./cloud-deployment/exp26
 
       - name: Run tests
         run: npm test
+        working-directory: ./cloud-deployment/exp26
 
       - name: Build project
         run: npm run build
+        working-directory: ./cloud-deployment/exp26
 
-      # Optional Deployment Example: GitHub Pages
       - name: Deploy to GitHub Pages
         if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./cloud-deployment/exp26/dist
