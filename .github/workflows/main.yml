@@ -7,7 +7,7 @@ on:
     paths:
       - cloud-deployment/exp26/**
 
-      
+
 permissions:
   contents: write
 
@@ -36,5 +36,12 @@ jobs:
       - name: Build project
         run: npm run build
         working-directory: cloud-deployment/exp26
+
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./cloud-deployment/exp26/dist
 
 
